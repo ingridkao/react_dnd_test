@@ -19,8 +19,34 @@ body {
   flex-wrap: wrap;
 }
 
-.square{
+.board *{
+  width: 100%;
   height: 100%;
+}
+
+.boardSquare{
+  position: relative;
+}
+
+.isOverSquare{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.isOverSquare.red{
+  background-color: red;
+}
+.isOverSquare.yellow{
+  background-color: yellow;
+}
+.isOverSquare.green{
+  background-color: green;
+}
+
+.square{
   line-height: 10vh;
   text-align: center;
   font-size: 5vh;
