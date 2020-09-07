@@ -11,7 +11,7 @@ import { observe } from './Game';
 //透過Game裡面的observe方法讓棋子到處動
 observe((knightPosition) =>
   ReactDOM.render(<Board knightPosition={knightPosition} />, document.getElementById('root'))
-)
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
