@@ -11,6 +11,7 @@ export default function BoardSquare({ x, y, children }) {
     const black = (x + y) % 2 === 1
 
     // 處理drop事件的放置目標規範：
+    // useDrop：拉動
     const [{ isOver, canDrop }, drop] = useDrop({
         accept: ItemTypes.KNIGHT,
         //綁定移動騎士的event:知道騎士掉落後將其移動到何處

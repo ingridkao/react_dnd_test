@@ -1,4 +1,5 @@
-//棋盤中的方塊
+//棋盤中的方塊：綁定DndProvider
+//           DndProvider應用程序提供React-DnD功能，使用backend將HTML5註入React-DnD。
 
 import React from 'react'
 // import Square from './Square'
