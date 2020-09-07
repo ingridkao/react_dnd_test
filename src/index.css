@@ -26,3 +26,8 @@ body {
   font-size: 5vh;
 }
 
+.knight{
+  background-color: transparent;
+  cursor: move;
+  font-weight: bold;
+}
